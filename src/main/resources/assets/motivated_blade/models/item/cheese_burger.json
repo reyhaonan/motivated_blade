@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "motivated_blade:item/cheese_burger"
+  }
+
+}
