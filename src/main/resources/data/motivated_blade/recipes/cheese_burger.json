@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "MRL",
+    " B "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bread"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "M": {
+      "item":"minecraft:beef"
+    },
+    "L": {
+      "tags":"minecraft:leaves"
+    }
+  },
+  "result": {
+    "item": "motivated_blade:cheese_burger",
+    "count": 1
+  }
+}
