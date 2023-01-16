@@ -6,6 +6,7 @@ import net.items.CheeseBurger;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.item.FoodComponent;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
@@ -13,7 +14,7 @@ import net.minecraft.util.registry.Registry;
 public class MotivatedBlade implements ModInitializer {
 
   public static final CheeseBurger cheeseBurger = new CheeseBurger(
-      new FabricItemSettings().group(ItemGroup.FOOD)
+      new FabricItemSettings().group(ItemGroup.FOOD).recipeRemainder(Item.byRawId(325))
           .food(new FoodComponent.Builder().hunger(16).saturationModifier(0.3f)
               .statusEffect(new StatusEffectInstance(StatusEffect.byRawId(9), 200), 0.2f).build()));
 

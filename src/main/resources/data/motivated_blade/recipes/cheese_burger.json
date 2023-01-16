@@ -1,22 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " B ",
-    "MRL",
-    " B "
+    "B ",
+    "SM"
   ],
   "key": {
     "B": {
       "item": "minecraft:bread"
     },
-    "R": {
-      "item": "minecraft:redstone"
-    },
-    "M": {
+    "S": {
       "item":"minecraft:beef"
     },
-    "L": {
-      "tags":"minecraft:leaves"
+    "M": {
+      "item":"minecraft:milk_bucket"
     }
   },
   "result": {
